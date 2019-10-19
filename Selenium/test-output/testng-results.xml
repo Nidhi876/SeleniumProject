@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="175346" started-at="2019-10-19T18:26:44Z" finished-at="2019-10-19T18:29:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="175346" started-at="2019-10-19T18:26:44Z" finished-at="2019-10-19T18:29:40Z">
+      <class name="com.edureka.project.Selenium.UpdateProfile">
+        <test-method status="PASS" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.edureka.project.Selenium.UpdateProfile@30b7c004]" name="openBrowser" is-config="true" duration-ms="14507" started-at="2019-10-19T20:28:34Z" finished-at="2019-10-19T20:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5df778c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.edureka.project.Selenium.UpdateProfile@30b7c004]" name="searchSelenium" duration-ms="51390" started-at="2019-10-19T20:28:48Z" finished-at="2019-10-19T20:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.edureka.project.Selenium.UpdateProfile@30b7c004]" name="closeBrowser" is-config="true" duration-ms="90" started-at="2019-10-19T20:29:40Z" finished-at="2019-10-19T20:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.edureka.project.Selenium.UpdateProfile -->
+      <class name="com.edureka.project.Selenium.listSeleniumBlog">
+        <test-method status="PASS" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.edureka.project.Selenium.listSeleniumBlog@65d6b83b]" name="openBrowser" is-config="true" duration-ms="9045" started-at="2019-10-19T20:27:13Z" finished-at="2019-10-19T20:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5df778c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="listSeleniumBlog()[pri:0, instance:com.edureka.project.Selenium.listSeleniumBlog@65d6b83b]" name="listSeleniumBlog" duration-ms="27184" started-at="2019-10-19T20:27:22Z" finished-at="2019-10-19T20:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listSeleniumBlog -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.edureka.project.Selenium.listSeleniumBlog@65d6b83b]" name="closeBrowser" is-config="true" duration-ms="444" started-at="2019-10-19T20:27:50Z" finished-at="2019-10-19T20:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.edureka.project.Selenium.listSeleniumBlog -->
+      <class name="com.edureka.project.Selenium.searchSeleniumCourse">
+        <test-method status="PASS" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.edureka.project.Selenium.searchSeleniumCourse@d706f19]" name="openBrowser" is-config="true" duration-ms="14084" started-at="2019-10-19T20:27:50Z" finished-at="2019-10-19T20:28:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5df778c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="searchSelenium()[pri:0, instance:com.edureka.project.Selenium.searchSeleniumCourse@d706f19]" name="searchSelenium" duration-ms="29640" started-at="2019-10-19T20:28:04Z" finished-at="2019-10-19T20:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSelenium -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.edureka.project.Selenium.searchSeleniumCourse@d706f19]" name="closeBrowser" is-config="true" duration-ms="124" started-at="2019-10-19T20:28:34Z" finished-at="2019-10-19T20:28:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.edureka.project.Selenium.searchSeleniumCourse -->
+      <class name="com.edureka.project.Selenium.validateCourse">
+        <test-method status="PASS" signature="openBrowser(org.testng.ITestContext)[pri:0, instance:com.edureka.project.Selenium.validateCourse@45018215]" name="openBrowser" is-config="true" duration-ms="9895" started-at="2019-10-19T20:26:44Z" finished-at="2019-10-19T20:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5df778c3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validatecourse()[pri:0, instance:com.edureka.project.Selenium.validateCourse@45018215]" name="validatecourse" duration-ms="18453" started-at="2019-10-19T20:26:54Z" finished-at="2019-10-19T20:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecourse -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.edureka.project.Selenium.validateCourse@45018215]" name="closeBrowser" is-config="true" duration-ms="446" started-at="2019-10-19T20:27:13Z" finished-at="2019-10-19T20:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.edureka.project.Selenium.validateCourse@45018215]" name="tearDown" is-config="true" duration-ms="560" started-at="2019-10-19T20:29:41Z" finished-at="2019-10-19T20:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.edureka.project.Selenium.validateCourse -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.Listeners.TestListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.edureka.project.Selenium.searchSeleniumCourse">
+        <methods>
+          <include name="searchSelenium"/>
+        </methods>
+      </class> <!-- com.edureka.project.Selenium.searchSeleniumCourse -->
+      <class name="com.edureka.project.Selenium.validateCourse">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="validatecourse"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.edureka.project.Selenium.validateCourse -->
+      <class name="com.edureka.project.Selenium.UpdateProfile">
+        <methods>
+          <include name="searchSelenium"/>
+        </methods>
+      </class> <!-- com.edureka.project.Selenium.UpdateProfile -->
+      <class name="com.edureka.project.Selenium.listSeleniumBlog">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="listSeleniumBlog"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.edureka.project.Selenium.listSeleniumBlog -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
